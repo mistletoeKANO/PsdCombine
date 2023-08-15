@@ -1,0 +1,153 @@
+.VerticalLine
+{
+    margin: auto 0;
+    width: 1px;
+    height: 20;
+    background: rgb(61, 61, 61);
+}
+
+.M_MainForm
+{
+    background-color: rgb(80, 80, 80);
+    -webkit-text-fill-color: rgb(174, 175, 175);
+}
+
+label
+{
+    text-align: justify;
+    font-size: 12px;
+}
+
+.CustomButton
+{
+    background-color: rgb(80, 80, 80);
+    outline: none;
+    border-width: 1px;
+    border-color: rgb(20, 20, 20);
+    text-align: center;
+    width: fit-content;
+}
+
+.CustomButton:hover
+{
+    background-color: rgb(60, 60, 60);
+}
+
+.CustomButton:active
+{
+    background-color: rgb(36, 36, 36);
+}
+
+
+.customScrollView
+{
+    height: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color:rgb(54, 54, 54);
+}
+
+.psdScrollView
+{
+    width: 50%;
+    min-height: 5%;
+    max-height: 60%;
+}
+
+.psdScrollItem
+{
+    background-color: rgb(80, 80, 80);
+    height: 32px;
+    margin: 3px;
+    display: flex;
+    padding-left: 5px;
+}
+
+.psdScrollItem:hover
+{
+    background-color: rgb(60, 60, 60);
+}
+
+.psdScrollItem input{
+    margin: auto 5px;
+}
+
+.psdScrollItem label{
+    margin: auto 10px;
+}
+
+.psdAllSelectLayer
+{
+    border-left: 2px solid rgb(80, 80, 80);
+    width: calc(40% - 2px);
+    max-height: 60%;
+}
+
+.layerLeafNode
+{
+    background-color: rgb(80, 80, 80);
+    height: 32px;
+    margin: 3px;
+    display: flex;
+    padding-left: 5px;
+    user-select: none;
+}
+
+.layerLeafNode:hover
+{
+    background-color: rgb(60, 60, 60);
+}
+
+.layerLeafNode input{
+    margin: auto 5px;
+}
+
+.layerLeafNode label{
+    margin: auto 10px;
+}
+
+
+.branchNodeContainer
+{
+    border-left: rgb(80, 80, 80) solid 10px;
+}
+
+.layerBranchNode
+{
+    background-color: rgb(80, 80, 80);
+    height: 24px;
+    margin: 3px;
+    display: flex;
+    padding-left: 5px;
+    user-select: none;
+}
+
+.layerBranchNode:hover
+{
+    background-color: rgb(60, 60, 60);
+}
+
+.layerBranchToggleDiv
+{
+    display: flex;
+    width: 100%;
+}
+
+.layerBranchNode input
+{
+    margin: auto 5px;
+    display: block;
+}
+
+.layerBranchNode label
+{
+    margin: auto 10px;
+}
+
+.layerBranchNode img
+{
+    margin: auto 3px;
+    width: 16px;
+    height: 16px;
+}
